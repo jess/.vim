@@ -1,2 +1,2 @@
-set runtimepath+=~/vim
-source ~/vim/vimrc.vim
+set runtimepath+=~/.vim
+source ~/.vim/vimrc.vim
