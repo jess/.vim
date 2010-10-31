@@ -9,6 +9,7 @@ syntax on
 map <c-n> :NERDTree<CR>
 map <c-t> :FufFile<CR>
 map <D-C> :ColorHEX<CR> 
+set guifont=Monaco:h12
 set tabstop=4
 set expandtab
 set shiftwidth=2 " or whatever
