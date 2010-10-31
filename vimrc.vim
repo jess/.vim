@@ -3,8 +3,8 @@ au BufRead,BufNewFile *.scss set filetype=scss
 "autocmd VimEnter * wincmd p
 " Load matchit (% to bounce from do to end, etc.)
 runtime! macros/matchit.vim
-set background=dark
-colorscheme ir_black
+"set background=dark
+"colorscheme ir_black
 syntax on
 map <c-n> :NERDTree<CR>
 map <c-t> :FufFile<CR>
@@ -25,4 +25,3 @@ nmap <C-Down> ]e
  " Bubble multiple lines
 vmap <C-Up> [egv
 vmap <C-Down> ]egv
-"testing commit 
