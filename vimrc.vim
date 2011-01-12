@@ -2,7 +2,8 @@ au BufRead,BufNewFile *.scss set filetype=scss
 "autocmd VimEnter * NERDTree
 "autocmd VimEnter * wincmd p
 " Load matchit (% to bounce from do to end, etc.)
-runtime! macros/matchit.vim
+"runtime! macros/matchit.vim
+runtime macros/matchit.vim 
 "set background=dark
 "colorscheme ir_black
 syntax on
