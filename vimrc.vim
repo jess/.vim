@@ -8,7 +8,7 @@ runtime macros/matchit.vim
 "colorscheme ir_black
 syntax on
 map <c-n> :NERDTree<CR>
-map <c-t> :FufFile<CR>
+map <c-t> :FufFile **/<CR>
 map <D-C> :ColorHEX<CR> 
 set guifont=Monaco:h12
 set tabstop=4
